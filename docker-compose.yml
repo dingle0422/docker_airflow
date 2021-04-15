@@ -29,7 +29,7 @@ services:
     volumes:
       - ./dags:/usr/local/airflow/dags
       # Uncomment to include custom plugins
-      - ./app_folder:/usr/local/airflow/app_folder
+      - ./app_implant:/usr/local/airflow/app_implant
       #- ./requirements.txt:/usr/local/airflow/requirements.txt
 
     ports:

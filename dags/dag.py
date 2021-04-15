@@ -53,7 +53,7 @@ dag = DAG(
 
 prediction = BashOperator(
 	task_id = 'pred',
-	bash_command = 'python /usr/local/airflow/app_folder/modules/app.py',
+	bash_command = 'python /usr/local/airflow/app_implant/modules/app.py',
 	dag=dag
 )
 
